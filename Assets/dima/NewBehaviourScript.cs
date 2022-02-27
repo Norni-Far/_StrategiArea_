@@ -8,7 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
 
-        print("hello, dima");
+        print("hello, vidnik");
 
 
     }
