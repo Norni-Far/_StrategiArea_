@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -269,7 +270,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -509,6 +510,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -586,7 +588,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -846,6 +848,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -955,6 +958,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1113,6 +1117,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1281493568}
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.42
       objectReference: {fileID: 0}
@@ -1125,6 +1133,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -1135,14 +1147,6 @@ PrefabInstance:
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1354,6 +1358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1411,6 +1416,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1484,7 +1490,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1965,6 +1971,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2125,6 +2132,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2270,6 +2278,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2433,6 +2442,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2602,7 +2612,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2788,7 +2798,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2993,6 +3003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3050,6 +3061,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3445,7 +3457,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3765,7 +3777,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3981,6 +3993,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4059,6 +4072,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4218,7 +4232,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4396,6 +4410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -4498,6 +4513,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4647,6 +4663,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4942,9 +4959,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.0005002022, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.5822573, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5154,7 +5172,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5343,6 +5361,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5502,7 +5521,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5674,12 +5693,16 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127449, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2940694640924127449, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_TagString
       value: Tag_FirstTrain_Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2940694640924127449, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5694,6 +5717,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -5704,14 +5731,6 @@ PrefabInstance:
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5788,6 +5807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -5845,6 +5865,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5948,7 +5969,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6127,6 +6148,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6337,6 +6359,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6528,6 +6551,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6707,7 +6731,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7090,6 +7114,7 @@ MonoBehaviour:
   m_Color: {r: 0.2830189, g: 0.11053755, b: 0.11053755, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7583,6 +7608,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7656,7 +7682,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7863,7 +7889,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8317,6 +8343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -8374,6 +8401,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8535,6 +8563,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1438747496
 Canvas:
   m_ObjectHideFlags: 0
@@ -8743,7 +8772,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9003,6 +9032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -9060,6 +9090,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9133,7 +9164,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9311,6 +9342,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9622,6 +9654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -9679,6 +9712,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9866,6 +9900,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9944,6 +9979,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10152,7 +10188,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10330,6 +10366,7 @@ MonoBehaviour:
   m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10516,6 +10553,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10700,6 +10738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -10801,7 +10840,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11694,9 +11733,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.0005002022, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.5822573, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11921,7 +11961,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12167,6 +12207,7 @@ MonoBehaviour:
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12299,7 +12340,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.504, y: 0.19299999}
+    oldSize: {x: 0.504, y: 0.193}
     newSize: {x: 0.504, y: 0.19299999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12614,6 +12655,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.28
       objectReference: {fileID: 0}
@@ -12626,6 +12671,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -12636,14 +12685,6 @@ PrefabInstance:
     - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3455292242467754773, guid: 4f5581e73cae33b4184fd77d13bc2023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12675,12 +12716,16 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127449, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2940694640924127449, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_TagString
       value: Tag_FirstTrain_Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2940694640924127449, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12695,6 +12740,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -12705,14 +12754,6 @@ PrefabInstance:
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2940694640924127454, guid: fadaa7328b10fac4a811cbadc77de020, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12756,6 +12797,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1281493568}
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.81
       objectReference: {fileID: 0}
@@ -12768,6 +12813,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -12778,14 +12827,6 @@ PrefabInstance:
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 345983962495016526, guid: 5ae965e75263e61479539d179e9c8648, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12809,6 +12850,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.13
       objectReference: {fileID: 0}
@@ -12821,6 +12866,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -12831,14 +12880,6 @@ PrefabInstance:
     - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6742987788161332016, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12857,12 +12898,12 @@ PrefabInstance:
       value: _SecondTrain_Player_
       objectReference: {fileID: 0}
     - target: {fileID: 6742987788161332028, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
-      propertyPath: m_TagString
-      value: Tag_SecondTrain_Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6742987788161332028, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742987788161332028, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
+      propertyPath: m_TagString
+      value: Tag_SecondTrain_Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45da2fe8e4171d648b02f859a42106f2, type: 3}
